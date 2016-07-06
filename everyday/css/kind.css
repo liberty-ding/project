@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: '微软雅黑';
+}
+a {
+  text-decoration: none;
+}
+ul ol,
+li {
+  list-style: none;
+}
+html,
+body {
+  width: 100%;
+}
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+.container .hd {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0.5rem;
+  width: 100%;
+  background: #F75D51;
+  color: #fff;
+  font-size: 0.25rem;
+  text-align: center;
+  line-height: 0.5rem;
+  position: relative;
+}
+.container .hd .font {
+  position: absolute;
+  right: 0.1rem;
+  top: 0.1rem;
+  font-size: 0.27rem;
+  color: #fff;
+}
+.container .main {
+  -webkit-flex-grow: 1;
+  font-size: 0.2rem;
+  background: #EEEEEE;
+  height: 468px;
+}
+.container .ft {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #F6F6F6;
+  font-size: 0.18rem;
+  display: -webkit-flex;
+}
+.container .ft .dls {
+  width: 25%;
+  text-align: center;
+}
+.container .ft .dls dd {
+  color: #666;
+  line-height: 0.3rem;
+}
+.ullist li {
+  height: 0.6rem;
+  width: 100%;
+  line-height: 0.6rem;
+  background: #fff;
+  margin-bottom: 0.1rem;
+  padding-left: 0.4rem;
+  position: relative;
+}
+.ullist li .icon {
+  float: right;
+  padding-right: 0.1rem;
+  padding-top: 0.17rem;
+  font-size: 0.25rem;
+}
+.ullist li .log {
+  width: 0.3rem;
+  position: absolute;
+  left: 0.08rem;
+  top: 0.15rem;
+}
+.ullist li .ar {
+  position: absolute;
+  right: 0.08rem;
+  top: 0.27rem;
+}
+.xqlist {
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+  width: 100%;
+}
+.xqlist a {
+  width: 28%;
+  height: 0.4rem;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  line-height: 0.4rem;
+  text-align: center;
+  margin: 0.1rem 2%;
+  color: #000;
+}
+.ft1 {
+  height: 0.35rem;
+  padding-top: 0.05rem;
+}

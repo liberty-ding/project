@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: '微软雅黑';
+}
+a {
+  text-decoration: none;
+}
+ul ol,
+li {
+  list-style: none;
+}
+html,
+body {
+  width: 100%;
+}
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+.container .hd {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0.5rem;
+  width: 100%;
+  background: #F75D51;
+  color: #fff;
+  font-size: 0.25rem;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 0.5rem;
+  position: relative;
+}
+.container .hd .qx {
+  font-size: 0.18rem;
+  padding-left: 0.05rem;
+}
+.container .main {
+  font-size: 0.18rem;
+}
+.container .main .hot {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  padding-left: 0.14rem;
+}
+.sea {
+  height: 0.3rem;
+  width: 80%;
+  border-radius: 7px;
+  border: 1px solid #efefef;
+  position: relative;
+  padding-left: 0.4rem;
+  vertical-align: middle;
+  outline: none;
+}
+.seach {
+  position: absolute;
+  left: 0.3rem;
+  top: 0.17rem;
+  color: #CACACA;
+  font-size: 0.2rem;
+}
+.uls {
+  display: -webkit-flex;
+  background: #F1F1F1;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.uls li {
+  width: 25%;
+  height: 0.4rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 0.4rem;
+  margin: 0.2rem;
+  background: #fff;
+}
+.hos {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  padding-left: 0.14rem;
+  font-size: 0.18rem;
+  font-weight: normal;
+  border-bottom: 1px solid #ccc;
+}
+.clear {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  color: #666;
+  border-bottom: 1px solid #ccc;
+  background: #F1F1F1;
+}

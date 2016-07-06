@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: '微软雅黑';
+}
+a {
+  text-decoration: none;
+}
+ul ol,
+li {
+  list-style: none;
+}
+html,
+body,
+.container {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+.container .hd {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 0.5rem;
+  width: 100%;
+  background: #F75D51;
+  color: #fff;
+  font-size: 0.25rem;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 0.5rem;
+  position: relative;
+}
+.container .hd .qx {
+  font-size: 0.18rem;
+  padding-left: 0.05rem;
+}
+.container .main {
+  -webkit-flex-grow: 1;
+  font-size: 0.16rem;
+  height: 6.1rem;
+  overflow: scroll;
+}
+.container .main .alls {
+  color: #666;
+  line-height: 0.5rem;
+  padding-left: 0.15rem;
+  border-bottom: 1px solid #ccc;
+}
+.sea {
+  height: 0.3rem;
+  width: 80%;
+  border-radius: 7px;
+  border: 1px solid #efefef;
+  position: relative;
+  padding-left: 0.4rem;
+  vertical-align: middle;
+  outline: none;
+}
+.seach {
+  position: absolute;
+  left: 0.3rem;
+  top: 0.17rem;
+  color: #CACACA;
+  font-size: 0.2rem;
+}
+.dls {
+  width: 100%;
+  height: 1.1rem;
+  padding: 0 0.15rem;
+  border-bottom: 1px solid #ccc;
+}
+.dls dt {
+  float: left;
+  padding: 0.17rem 0.15rem 0.15rem 0;
+}
+.dls dt .jc {
+  height: 0.7rem;
+}
+.dls dd {
+  float: left;
+  padding: 0.15rem 0 0.15rem 0;
+}
+.dls dd .bt {
+  font-size: 0.18rem;
+}
+.pp {
+  line-height: 0.3rem;
+  color: #999;
+}
+.price b {
+  font-weight: normal;
+}
+.price span {
+  float: right;
+  color: #999;
+}
